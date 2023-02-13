@@ -1,2 +1,2 @@
 Hello, this is majimagua.
-This is a text used to test for git's push function.
+This is a text used to test for git's pushing function.

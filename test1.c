@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main()
 {
 	int *ptr;
@@ -12,6 +11,9 @@ int main()
 	}
 	printf("请输入一个整数！\n");
 	scanf("%d", ptr);
+	printf("你输入的整数是：%d\n",*ptr);
+	free(ptr);
+	
 	printf("你输入的整数是：%d\n",*ptr);
 	return 0;
 }
